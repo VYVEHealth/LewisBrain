@@ -1,283 +1,246 @@
-# Lewis Brain — Master Document
+# Lewis Brain — Master Context File
 
-> This document gives any AI everything it needs to operate on VYVE Health business and commercial tasks with Lewis Vines (CEO).
-> Last verified: 13 April 2026.
-> **Lewis:** Review this document and fill in the sections marked [LEWIS TO FILL IN]. These are areas only you know — your AI skills, pipeline details, content calendar, Make automations, and contacts.
-
----
-
-## 1. What Is VYVE Health?
-
-VYVE Health CIC is a UK-based Community Interest Company building a proactive wellbeing platform for individuals and employers. Three pillars: Physical, Mental, Social health. AI coaching personas personalise the member experience.
-
-**Stage:** Pre-revenue, MVP, validation.
-**Members:** 11 (verified 11 April 2026).
-**Legal:** ICO registered (00013608608). CIC = 6-8 point advantage in public sector procurement.
-
-### Team
-| Role | Person | Email | Focus |
-|------|--------|-------|-------|
-| CEO / Founder | Lewis Vines | lewisvines@hotmail.com | Commercial, sales, content, AI ops |
-| CTO / Co-Founder | Dean Brown | deanonbrown@hotmail.com | Technical (part-time until 6K/month revenue) |
-
-**Business email:** team@vyvehealth.co.uk — always use this for external comms, never personal emails.
+> Last updated: 2026-04-13
+> Maintained by: Claude (via brain sync)
+> Source of truth: This file. Not chat history.
 
 ---
 
-## 2. Product — What Members Get
+## 1. Who You Are
 
-- 5 AI coaching personas (NOVA, RIVER, SPARK, SAGE, HAVEN)
-- 8-week personalised workout programmes
-- Daily habit tracking with monthly themes
-- Weekly and monthly wellbeing check-ins with AI reports
-- AI-generated running plans
-- Nutrition logging (TDEE, macros, food diary)
-- Live sessions with real-time chat
-- Certificate system with charity donation mechanic
-- Leaderboards and engagement scoring
-- Web push notifications (habit + streak reminders)
+**Name:** Lewis Vines
+**Role:** CEO & Founder
+**Company:** VYVE Health CIC
+**Email:** lewis@vyvehealth.co.uk
+**Business email (for all outbound):** team@vyvehealth.co.uk
 
-### What Makes VYVE Different
-- CIC structure = public sector procurement advantage + social impact story
-- AI personas provide personalised coaching at scale (not one-size-fits-all)
-- Three-pillar approach (Physical, Mental, Social) — not just fitness
-- Employer dashboard with aggregate anonymised data (no PII) — HR gets ROI visibility
-- Certificate + charity mechanic = tangible social impact per member
+**Background:** [LEWIS TO FILL IN]
+> e.g. Your professional background, what led you to found VYVE, relevant experience
+
+**Working style:** [LEWIS TO FILL IN]
+> e.g. How you like to work, peak hours, how you prefer Claude to communicate
 
 ---
 
-## 3. Pricing
+## 2. VYVE — The Business
 
-| Channel | Price | Notes |
-|---------|-------|-------|
-| B2C | GBP20/month | Individual subscription |
-| B2B | GBP10/user/month | Advertised at GBP20, discount applied. Volume tiers TBD for 200+ seats |
-| Stripe checkout | buy.stripe.com/00wfZicla1Em0NnaIB93y00 | |
-| Coupons | VYVE15, VYVE10 | Active |
+### Overview
+VYVE Health CIC is a proactive workplace wellbeing platform for individuals and employers. Built on three pillars: Physical, Mental, and Social health.
 
----
+**Structure:** UK Community Interest Company (CIC)
+**ICO Registration:** 00013608608
+**Stage:** Pre-revenue, MVP
+**Team:** 11 members
+**CTO:** Dean Brown
 
-## 4. Key URLs & Accounts
+### Mission
+To make proactive wellbeing accessible, personalised, and evidence-based — not a bolt-on benefit, but an integrated part of how people work and live.
 
-| Reference | Value |
-|-----------|-------|
-| Member portal | online.vyvehealth.co.uk |
-| Marketing site | www.vyvehealth.co.uk |
-| Command Centre | admin.vyvehealth.co.uk |
-| Onboarding form | www.vyvehealth.co.uk/welcome |
-| Strategy dashboard | online.vyvehealth.co.uk/strategy.html (password: vyve2026) |
-| HubSpot Hub ID | 148106724 |
-| Sage Deal | 495586118853 |
-| Stripe checkout | buy.stripe.com/00wfZicla1Em0NnaIB93y00 |
+### The Three Pillars
+1. **Physical** — Movement, sleep, nutrition, body metrics
+2. **Mental** — Stress, focus, cognitive load, emotional wellbeing
+3. **Social** — Connection, belonging, team culture
 
-### Accounts / Tools
-| Tool | Used By | Purpose |
-|------|---------|---------|
-| Supabase | Dean (primary), Lewis (Command Centre) | Backend, DB, auth |
-| Brevo | Lewis + Dean | Transactional + marketing email (free tier, 300/day) |
-| HubSpot | Lewis | CRM, contact management |
-| Make | Lewis only | Social media automation |
-| PostHog | Dean (primary) | Product analytics |
-| Stripe | Lewis + Dean | Payments |
-| Claude.ai | Both | AI assistant (Projects for Lewis's 24 skills) |
-| Anthropic API | Dean (via Edge Functions) | AI in the product (server-side only) |
+### Key Differentiators
+- 5 AI coaching personas that personalise the member experience
+- CIC structure = procurement advantage in public sector + strong social impact story
+- Aggregate-only employer dashboard (no PII)
+- Proactive, not reactive — intervention before crisis
 
 ---
 
-## 5. AI Personas — What Lewis Needs to Know
+## 3. Product
 
-| Persona | Character | When Assigned |
-|---------|-----------|---------------|
-| NOVA | High-performance coach. Data-led. Precision. | High scores + 1-2 performance-focused goals only |
-| RIVER | Mindful guide. Calm, empathetic. | Low wellbeing/energy or high stress (stressed) |
-| SPARK | Motivational powerhouse. Energetic accountability. | Mixed goals, consistency focus, busy lifestyles. DEFAULT for most. |
-| SAGE | Knowledge-first mentor. Evidence-based. | Knowledge-seekers |
-| HAVEN | Mental health companion. | NOT LIVE — needs professional review before activation |
+### URLs
+- **Member Portal:** online.vyvehealth.co.uk
+- **Marketing Site:** www.vyvehealth.co.uk
+- **Command Centre (Admin):** admin.vyvehealth.co.uk
+- **Member Onboarding:** www.vyvehealth.co.uk/welcome
+- **HubSpot Hub ID:** 148106724
 
-### Critical: Stress Scale
-- 1 = Very stressed, 10 = Very calm
-- This is inverted from intuition — a HIGH stress score means the person is CALM
-- This matters when Lewis discusses personas or member assignments in sales contexts
+### The 5 AI Coaching Personas
+[LEWIS TO FILL IN]
+> What are the 5 personas called? What is each one's focus area, tone, and typical use case?
+> Which ones are live? (Note: HAVEN persona is NOT live)
 
----
+### Your 24 AI Skills
+[LEWIS TO FILL IN]
+> List all 24 AI Skills:
+> - Skill name
+> - What it does
+> - Output format
+> - Which Command Centre section it feeds
 
-## 6. Sales & Pipeline
+### Command Centre Structure
+[LEWIS TO FILL IN]
+> What are the main sections of the Command Centre? How is it structured?
 
-### Target Segments
-1. **SMEs (10-200 employees)** — Decision maker: HR Manager or MD. Pain: absenteeism, retention, wellbeing duty of care.
-2. **Public sector** — CIC status = procurement advantage. NHS, councils, universities.
-3. **Charities / third sector** — Social impact alignment.
-4. **B2C individuals** — Direct via marketing site + social.
-
-### Employer Value Proposition
-- Aggregate wellbeing dashboard (no individual PII)
-- Measurable ROI: engagement scores, check-in trends, activity levels
-- Duty of care compliance
-- CIC structure = social value scoring in tenders
-
-### Current Pipeline
-> Maintained in Command Centre (admin.vyvehealth.co.uk) > Sales Pipeline page.
-> Also tracked in HubSpot.
-
-### [LEWIS TO FILL IN] Active Leads & Key Contacts
-> Add your current pipeline here so AI has context on who you're talking to.
-> Format: Company | Contact | Stage | Next Action | Notes
+### Make Automations
+[LEWIS TO FILL IN]
+> What Make (formerly Integromat) scenarios are running?
+> - Scenario name
+> - Trigger
+> - What it does
+> - Status: Active / Paused
 
 ---
 
-## 7. Content Strategy
+## 4. Pricing
 
-### Lewis's 24 AI Skills (Claude.ai Projects)
-Lewis runs 24 AI skills inside Claude.ai Projects (subscription, no API cost). Each skill produces structured JSON output that gets imported into the Command Centre via Agent Sync.
+### B2C
+- **£20 / month** per individual member
 
-### [LEWIS TO FILL IN] AI Skill Names & Descriptions
-> List all 24 (or however many) skills here so AI knows what's available.
-> Format: Skill Name | What It Does | Output Format | Which CC section it feeds
+### B2B
+- **£10 / user / month**
+- Volume tiers: TBD for 200+ users
 
-### Content Channels
-| Channel | Frequency | Owner |
-|---------|-----------|-------|
-| LinkedIn (company) | 3-5x/week | Lewis |
-| LinkedIn (Lewis personal) | 2-3x/week | Lewis |
-| Blog (marketing site) | 1-2x/month | Lewis |
-| Email newsletter | Monthly | Lewis (via Brevo) |
-| Podcast | TBD | Lewis |
-
-### [LEWIS TO FILL IN] Content Calendar / Themes
-> What topics are you currently focusing on? Any recurring series? Hashtags?
-> What content has performed well? What tone/format gets engagement?
-
-### Brand Voice Rules
-- Warm, human, evidence-based — never corporate jargon
-- "Wellbeing" not "wellness" (UK English)
-- "Members" not "users" or "customers"
-- Never say "Corporate Wellness" as a tagline
-- CIC = Community Interest Company (explain on first use in external comms)
-- Always UK English spelling (colour, programme, organisation)
+### Pricing Notes
+[LEWIS TO FILL IN]
+> Any other pricing considerations, discounts, pilot structures, or custom deals in discussion?
 
 ---
 
-## 8. VYVE Command Centre
+## 5. Brand Voice & Rules
 
-### What It Is
-Internal ops dashboard for VYVE leadership. Browser-based, hosted at admin.vyvehealth.co.uk. Separate from the member portal.
+### Voice
+Warm, human, evidence-based, never corporate jargon. Think: a knowledgeable friend who happens to be an expert in wellbeing.
 
-### How to Access
-- URL: admin.vyvehealth.co.uk
-- Login: Supabase Auth — team@vyvehealth.co.uk
-- All data now persists in Supabase (as of 13 April 2026 — no more localStorage loss)
+### Writing Rules
+1. Business email only: team@vyvehealth.co.uk
+2. **Never** use "Corporate Wellness" as a tagline
+3. UK English always (colour not color, programme not program, etc.)
+4. "Members" not users or customers
+5. HAVEN persona is **NOT** live — do not reference it in external content
+6. Employer dashboard = aggregate only, never reference individual data
+7. CIC is **not** a charity — it can generate revenue. Do not conflate.
 
-### Pages (27 across 5 sections)
-**Intelligence:** Morning Brief, Research & Grants, Competitor Watch
-**Business:** Dashboard, Finance & Funding, Clients, Sales Pipeline, Investor Relations, Partner Network, Invoicing, Sessions, Tasks, Compliance
-**Content & Growth:** Content, Performance, Podcast, Brand & Voice
-**Strategy:** Strategy Room (OKRs/Decisions/Learnings/SWOT), Documents, Knowledge Base
-**Team:** Team Hub
-**System:** Settings
+### Tone Examples
+- ✅ "We believe wellbeing should be proactive, not reactive."
+- ✅ "VYVE helps your team thrive — not just cope."
+- ❌ "Our corporate wellness solution..."
+- ❌ "Users can access..."
 
-### Agent Sync (Lewis's workflow)
-1. Run an AI skill in Claude.ai Projects
-2. Skill outputs structured JSON
-3. Open Command Centre > Settings > Agent Sync
-4. Paste JSON > Import
-5. Data populates the relevant Intelligence section
+---
+
+## 6. Sales Pipeline
+
+### CRM
+HubSpot (Hub ID: 148106724)
+
+### Pipeline Stages
+[LEWIS TO FILL IN]
+> What are your pipeline stages in HubSpot?
+
+### Active Prospects
+[LEWIS TO FILL IN]
+> Who are you currently talking to?
+> Format:
+> - **Company name** | Contact: [Name] | Stage: [Stage] | Last contact: [Date] | Next action: [Action]
+
+### Ideal Customer Profile (ICP)
+[LEWIS TO FILL IN]
+> Who is your ideal B2B buyer? Sector, size, typical champion, budget owner?
+
+---
+
+## 7. Content & LinkedIn
+
+### LinkedIn Strategy
+[LEWIS TO FILL IN]
+
+### Hashtags
+[LEWIS TO FILL IN]
+
+### Content Pillars
+[LEWIS TO FILL IN]
+
+### Published Content
+[LEWIS TO FILL IN]
+
+---
+
+## 8. Live Sessions
+
+[LEWIS TO FILL IN]
 
 ---
 
 ## 9. Grants & Funding
 
-### Target Grants
-| Grant | Amount | Deadline | Status |
-|-------|--------|----------|--------|
-| National Lottery | TBD | June/July 2026 | Research phase |
-| The Fore | Up to GBP30K | June/July 2026 | Research phase |
+### Grant Pipeline
+[LEWIS TO FILL IN]
 
-### CIC Advantages for Funding
-- Asset lock = credibility with funders
-- Social mission alignment
-- Public sector procurement scoring bonus
-- Can still generate revenue (CIC is not a charity)
+### Investor Pipeline
+[LEWIS TO FILL IN]
 
-### [LEWIS TO FILL IN] Grant Contacts & Progress
-> Who have you spoken to? Which specific programmes? Application status?
+### Funding Strategy
+[LEWIS TO FILL IN]
 
 ---
 
-## 10. Make Automations
+## 10. Key Relationships
 
-### [LEWIS TO FILL IN] Active Make Scenarios
-> List your Make (formerly Integromat) automations here.
-> Format: Scenario Name | Trigger | What It Does | Status (active/paused)
-> e.g. "LinkedIn auto-post | RSS trigger | Posts blog content to LinkedIn | Active"
+### Partners & Collaborators
+[LEWIS TO FILL IN]
 
----
+### Advisors
+[LEWIS TO FILL IN]
 
-## 11. Partnerships & Network
-
-### [LEWIS TO FILL IN] Key Relationships
-> People Lewis is in regular contact with — partners, advisors, collaborators.
-> Format: Name | Organisation | Relationship | Last Contact | Notes
+### Press & Media
+[LEWIS TO FILL IN]
 
 ---
 
-## 12. Sessions & Live Delivery
+## 11. Competitors & Landscape
 
-### [LEWIS TO FILL IN] Session Schedule & Format
-> What live sessions does Lewis run? Format, frequency, platform?
-> Who attends? What content?
+### Direct Competitors
+[LEWIS TO FILL IN]
 
----
-
-## 13. App Store Status
-
-| Platform | Status | Notes |
-|----------|--------|-------|
-| Android (Google Play) | Submitted 12 April 2026 | Awaiting review (1-3 days) |
-| iOS (App Store) | Submitted 13 April 2026 | Awaiting review (24-48 hours) |
-
-Old Kahunas app (com.kahunas.io.VYVE) still on Play Store — deprecate after new app approved.
+### Positioning vs Competitors
+[LEWIS TO FILL IN]
 
 ---
 
-## 14. Hard Rules (NEVER BREAK)
+## 12. Strategic Priorities
 
-1. **Business email only** for external comms: team@vyvehealth.co.uk
-2. **Never say "Corporate Wellness"** as a tagline
-3. **UK English** always (programme, colour, organisation)
-4. **"Members"** not users or customers
-5. **HAVEN persona is NOT live** — never promise mental health counselling in sales materials
-6. **Employer dashboard = aggregate only, no PII** — this is a selling point AND a compliance requirement
-7. **CIC is not a charity** — can generate revenue, has asset lock, social mission
-8. **API keys never in sales decks or external docs** — if a prospect asks about security, refer to Dean
-9. **Dean is part-time until GBP6K/month revenue** — scope technical promises accordingly
-10. **Pricing is GBP10/user/month B2B** (advertised at GBP20 with discount) — don't go below without discussing with Dean
-11. **ICO registration: 00013608608** — include in data protection responses
-12. **Stress scale: 1 = very stressed, 10 = very calm** — if discussing personas externally, get this right
+### Current Quarter Priorities
+[LEWIS TO FILL IN]
+
+### 12-Month Goals
+[LEWIS TO FILL IN]
+
+### Blockers
+[LEWIS TO FILL IN]
 
 ---
 
-## 15. Technical Context (Light — For Sales Conversations)
+## 13. Technical Notes
 
-Lewis doesn't need deep technical knowledge, but should be able to speak to these in sales:
+### High-Level Architecture
+[LEWIS TO FILL IN]
 
-- **Data hosting:** Supabase, West EU/Ireland. GDPR-compliant region.
-- **Auth:** Supabase Auth (industry standard). MFA available.
-- **AI:** Anthropic (Claude) — server-side only, no data leaves to train models.
-- **Analytics:** PostHog (EU endpoint). Identity linked to auth.
-- **Architecture:** Progressive Web App (works offline, installable). Native apps in review.
-- **Security:** Full audit completed 11 April 2026. RLS on all tables. No PII in employer dashboard.
-- **Compliance:** ICO registered. Privacy policy live. External DPO planned before 500 members.
+### Features Live
+[LEWIS TO FILL IN]
 
-For anything deeper, tag Dean.
+### Features in Development
+[LEWIS TO FILL IN]
+
+### Integration Landscape
+[LEWIS TO FILL IN]
 
 ---
 
-## 16. Dean's Brain (Cross-Reference)
+## 14. Operating Rhythm
 
-Dean's technical brain is at `VYVEHealth/VYVEBrain`. Lewis can read it when needed:
-- `brain/master.md` — full technical architecture, DB schema, Edge Functions, auth patterns
-- `brain/changelog.md` — technical change log
-- `tasks/backlog.md` — technical backlog
-- `playbooks/` — technical playbooks (debug, build, refactor, etc.)
+### Weekly Cadence
+[LEWIS TO FILL IN]
 
-**When to read Dean's brain:** Before a technical sales question you can't answer, or when you need to confirm what's been built vs what's planned.
+### Lewis + Dean Sync
+[LEWIS TO FILL IN]
+
+### Review & Planning Cycle
+[LEWIS TO FILL IN]
+
+---
+
+*To update this file: tell Claude "run brain sync" at the end of any session.*

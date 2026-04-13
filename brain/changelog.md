@@ -5,21 +5,6 @@
 
 ---
 
-## 2026-04-13 — Full Brain Restructure (Lewis ZIP Upload)
-
-**Session:** Dean uploaded updated LewisBrain.zip with restructured brain files
-**Changes:**
-- brain/master.md: Replaced with new structured template (14 sections, [LEWIS TO FILL IN] placeholders)
-- brain/changelog.md: Updated to new format
-- tasks/backlog.md: Updated to new structured format with How to Use guide
-- All 8 playbooks: Updated with detailed Claude instructions and step-by-step playbook logic
-- prompts/cold-start.md: Updated with current VYVE context
-- README.md: Updated with current Quick Start prompt and repo structure
-
-**Next action:** Lewis to complete first brain session — fill in all [LEWIS TO FILL IN] sections in brain/master.md
-
----
-
 ## 2026-04-13 — Brain Initialised
 
 **Session:** Initial setup by Dean Brown (handover)

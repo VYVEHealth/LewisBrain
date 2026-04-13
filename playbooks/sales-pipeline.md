@@ -1,42 +1,97 @@
 # Playbook: Sales Pipeline
 
-## When to Use
-Pipeline reviews, lead qualification, outreach drafts, follow-ups, proposal writing, client meeting prep.
+**Trigger:** `run sales pipeline`
+**Purpose:** Review pipeline health, qualify leads, draft outreach, and write proposals
 
-## Steps
+---
 
-### 1. Load Pipeline State
-- Read Command Centre data (if Composio + Supabase tools available)
-- Or ask Lewis for current pipeline status
-- Check `brain/master.md` Section 6 for target segments and value prop
+## Claude's Instructions
 
-### 2. Qualify the Lead
+When this playbook is triggered:
+
+### Step 1 — Load Context
+Read from master.md:
+- Active prospects list
+- Pipeline stages
+- Ideal Customer Profile (ICP)
+- Pricing (B2B: £10/user/month, volume tiers TBD)
+- HubSpot Hub ID: 148106724
+
+### Step 2 — Pipeline Review
+Ask Lewis: "Do you want a full pipeline review, or are we focusing on a specific prospect or stage?"
+
+**If full review:**
+Go through each active prospect and ask Lewis for a status update on any that haven't been updated in 7+ days. Summarise:
+- Total active prospects
+- Breakdown by stage
+- Stalled deals (no activity in 14+ days)
+- Deals most likely to close in the next 30 days
+
+**If specific prospect:**
+Ask: "Which prospect? What do you need — outreach draft, proposal, follow-up, or something else?"
+
+### Step 3 — Qualify Leads
+For any new leads or prospects Lewis mentions, run a quick qualification:
+
 | Question | Why It Matters |
-|----------|---------------|
-| Company size? | 10-200 = sweet spot. Under 10 = too small. Over 200 = volume pricing needed |
-| Sector? | Public sector = CIC advantage. Private = standard pitch |
-| Decision maker? | HR Manager, MD, Wellbeing Lead |
-| Pain point? | Absenteeism, retention, duty of care, wellbeing strategy gap? |
-| Timeline? | Urgent = fast track. "Exploring" = nurture |
-| Budget? | GBP10/user/month minimum. Don't go below without Dean discussion |
+|---|---|
+| How many employees? | Determines deal size (£10/user/month) |
+| Who is the champion? | Do they have internal buy-in? |
+| Who controls budget? | Are we talking to the right person? |
+| What pain are they feeling? | Map to VYVE's pillars |
+| What does their current wellbeing programme look like? | Gap analysis |
+| What is the decision timeline? | Pipeline stage accuracy |
+| Any blockers? | Procurement, budget cycles, competing priorities |
 
-### 3. Draft Outreach / Proposal
-- Lead with the problem, not the product
-- Use social proof (11 active members, AI-powered, 3-pillar approach)
-- CIC angle for public sector
-- Employer dashboard (aggregate, no PII) as a differentiator
-- Include pricing only when asked or in formal proposals
+### Step 4 — Draft Outreach or Proposals
 
-### 4. Follow-Up Cadence
-| Day | Action |
-|-----|--------|
-| 0 | Initial outreach |
-| 3 | Follow-up if no response |
-| 7 | Value-add follow-up (share relevant content) |
-| 14 | Final check-in |
-| 30 | Move to nurture if no engagement |
+**Outreach email:**
+- Short, personalised, one clear ask
+- Reference a specific pain point or news about their organisation
+- Suggest a 20-minute call
+- Sign off as Lewis from team@vyvehealth.co.uk
+- UK English, warm tone, no corporate jargon
 
-### 5. Update Pipeline
-- Update Command Centre > Sales Pipeline with stage change
-- Update HubSpot if applicable
-- If deal progresses to proposal, create a task card
+**Proposal structure:**
+1. Cover — VYVE logo, prospect name, date
+2. The Challenge — Mirror their specific pain back to them
+3. Our Approach — Three pillars explained simply
+4. What Members Get — Features and experience
+5. What Employers Get — Dashboard, reporting, aggregate insights
+6. Pricing — Tailored to their headcount
+7. Why VYVE — CIC advantage, evidence-base, personalisation
+8. Next Steps — Pilot proposal or contract discussion
+
+### Step 5 — Follow-Up Sequences
+If Lewis needs a follow-up after a meeting:
+- Day 1: Send meeting recap + next steps (Lewis sends)
+- Day 5: Check-in if no response
+- Day 14: Value-add follow-up (share a relevant article or stat)
+- Day 30: Final nudge before archiving
+
+Claude will draft any of these on request.
+
+### Step 6 — Update Brain
+After the session:
+- Update Active Prospects in master.md with any new info
+- Run brain sync to commit changes
+
+---
+
+## Pricing Reference
+
+| Tier | Price | Notes |
+|---|---|---|
+| B2C | £20/month/member | Individual subscription |
+| B2B Standard | £10/user/month | Per employee |
+| B2B Volume | TBD | For 200+ users |
+
+---
+
+## Key Differentiators (for pitches)
+
+- CIC = public sector procurement advantage
+- Proactive, not reactive — intervention before burnout
+- 5 AI coaching personas = personalised experience at scale
+- Employer dashboard = aggregate insights, zero PII concerns
+- Evidence-based — every feature tied to peer-reviewed research

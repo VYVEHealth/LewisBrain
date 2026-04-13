@@ -1,39 +1,37 @@
 # Playbook: Morning Brief
 
-## When to Use
-Daily morning ops summary - what happened, what's on today, what needs attention.
+**Trigger:** `run morning brief`
+**Purpose:** Generate a focused daily ops summary — what happened, what is on today, blockers
 
-## Steps
+---
 
-### 1. Gather Data
-- Read `tasks/backlog.md` for current priorities
-- Read `brain/changelog.md` (last 1-2 entries) for recent work
-- If Supabase tools available: check Command Centre tables for new items
-- If Dean's brain available: read `VYVEBrain/brain/changelog.md` last entry for tech updates
+## Claude's Instructions
 
-### 2. Generate Brief
-Structure:
-```
-## Morning Brief - [Date]
+When this playbook is triggered:
 
-### What Happened Yesterday
-- [Key completions from changelog]
+### Step 1 — Load Context
+Read from:
+- `brain/master.md` - pipeline, priorities
+- `brain/changelog.md` - last session
+- `tasks/backlog.md` - current tasks
 
-### Today's Focus
-- [Top 3 priorities from backlog]
+### Step 2 — Generate the Brief
 
-### Blockers / Waiting On
-- [Anything in blocked/ or flagged]
+**🌅 VYVE Morning Brief — [Today]**
 
-### Numbers
-- Members: [from master.md]
-- Pipeline: [from CC or last known]
-- App Store: [status]
+**Yesterday's wins** - [from changelog]
+**Today's focus** - [top 3 tasks]
+**Pipeline pulse** - [any deadlines due]
+**What needs Lewis** - [blockers]
+**On the radar** - [next 7 days]
 
-### Dean Update
-- [Summary from VYVEBrain changelog if available]
-```
+### Step 3 — Ask What We're Working On
 
-### 3. Deliver
-- Post to Command Centre > Morning Brief
-- Or deliver in chat for Lewis to review
+### Step 4 — Quick Wins Mode
+
+---
+
+## Notes
+- Keep it under 2 minutes to read
+- Energising, not bureaucratic
+- Always end with "what are we working on?"

@@ -1,16 +1,53 @@
-## 13 April 2026 — Lewis Brain Created
+# Lewis Brain — Changelog
 
-### Initial Setup
-Lewis Brain repo created by Dean as part of the VYVE External Brain system. This gives Lewis the same AI-powered workflow Dean uses, tailored to the CEO role.
+> This file is updated automatically at the end of each session via `run brain sync`.
+> Most recent entries appear at the top.
 
-### What's Included
-- `brain/master.md` — Lewis's complete business context (sales, content, partnerships, grants, pricing, brand voice)
-- `brain/how-to-use.md` — Operator guide with session start prompts and playbook selection
-- `brain/startup-prompt.md` — Instructions Claude reads when loading the brain
-- `prompts/cold-start.md` — Paste into any AI to get started without Composio
-- `tasks/backlog.md` — Lewis's commercial task backlog
-- `tasks/task-template.md` — Blank task card
-- 7 playbooks: content-creation, sales-pipeline, grant-application, investor-comms, morning-brief, agent-sync, partnerships, brain-sync
+---
 
-### Cross-Brain Access
-Lewis can read Dean's brain at `VYVEHealth/VYVEBrain` for technical context. Dean can read Lewis's brain here for commercial context.
+## 2026-04-13 — Full Brain Restructure (Lewis ZIP Upload)
+
+**Session:** Dean uploaded updated LewisBrain.zip with restructured brain files
+**Changes:**
+- brain/master.md: Replaced with new structured template (14 sections, [LEWIS TO FILL IN] placeholders)
+- brain/changelog.md: Updated to new format
+- tasks/backlog.md: Updated to new structured format with How to Use guide
+- All 8 playbooks: Updated with detailed Claude instructions and step-by-step playbook logic
+- prompts/cold-start.md: Updated with current VYVE context
+- README.md: Updated with current Quick Start prompt and repo structure
+
+**Next action:** Lewis to complete first brain session — fill in all [LEWIS TO FILL IN] sections in brain/master.md
+
+---
+
+## 2026-04-13 — Brain Initialised
+
+**Session:** Initial setup by Dean Brown (handover)
+**Changes:**
+- Repo created: VYVEHealth/LewisBrain
+- brain/master.md created with full VYVE context and [LEWIS TO FILL IN] sections
+- brain/changelog.md created (this file)
+- tasks/backlog.md created
+- prompts/cold-start.md created
+- All 8 playbooks created in /playbooks/
+- README.md created
+
+**Next action:** Lewis to complete first brain session — fill in [LEWIS TO FILL IN] sections in master.md
+
+---
+
+<!-- Add new entries above this line in the format:
+
+## YYYY-MM-DD — [Session summary]
+
+**Session:** [Brief description of what was worked on]
+**Changes:**
+- [File updated]: [What changed]
+- [File updated]: [What changed]
+
+**Decisions made:**
+- [Any key decisions]
+
+**Next action:** [What happens next]
+
+-->

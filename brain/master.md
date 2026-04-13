@@ -147,21 +147,32 @@ HubSpot (Hub ID: 148106724)
 
 ### LinkedIn Strategy
 [LEWIS TO FILL IN]
+> What is your current LinkedIn content strategy?
+> - Topics you post about
+> - What is performing well
+> - Posting frequency
+> - Any recurring series or themes
 
 ### Hashtags
 [LEWIS TO FILL IN]
+> List the hashtags you use regularly
 
 ### Content Pillars
 [LEWIS TO FILL IN]
+> What are your 3-5 content pillars that everything maps back to?
 
 ### Published Content
 [LEWIS TO FILL IN]
+> List recent notable posts, articles, or content pieces and what performed well
 
 ---
 
 ## 8. Live Sessions
 
 [LEWIS TO FILL IN]
+> What live sessions do you run?
+> Format:
+> - **Session name** | Platform: [Platform] | Frequency: [Frequency] | Format: [Format] | Audience: [Audience]
 
 ---
 
@@ -169,12 +180,17 @@ HubSpot (Hub ID: 148106724)
 
 ### Grant Pipeline
 [LEWIS TO FILL IN]
+> Who have you spoken to? Which specific programmes?
+> Format:
+> - **Grant/Programme name** | Funder: [Org] | Value: [£] | Status: [Researching / Applied / Awaiting / Rejected / Awarded] | Notes: [Key context]
 
 ### Investor Pipeline
 [LEWIS TO FILL IN]
+> Are you talking to any investors? Angels, VCs, or grant-equity hybrids?
 
 ### Funding Strategy
 [LEWIS TO FILL IN]
+> What is your current funding priority — grants, angels, revenue-first?
 
 ---
 
@@ -182,12 +198,16 @@ HubSpot (Hub ID: 148106724)
 
 ### Partners & Collaborators
 [LEWIS TO FILL IN]
+> Format:
+> - **Name / Organisation** | Type: [Partner / Advisor / Referral / Collaborator] | Relationship: [Brief description] | Last contact: [Date]
 
 ### Advisors
 [LEWIS TO FILL IN]
+> Who are your formal or informal advisors?
 
 ### Press & Media
 [LEWIS TO FILL IN]
+> Any journalists, podcasters, or media contacts you have relationships with?
 
 ---
 
@@ -195,9 +215,11 @@ HubSpot (Hub ID: 148106724)
 
 ### Direct Competitors
 [LEWIS TO FILL IN]
+> Who are the main competitors? What do they do well / poorly?
 
 ### Positioning vs Competitors
 [LEWIS TO FILL IN]
+> How do you differentiate from each main competitor?
 
 ---
 
@@ -205,21 +227,27 @@ HubSpot (Hub ID: 148106724)
 
 ### Current Quarter Priorities
 [LEWIS TO FILL IN]
+> What are the top 3-5 things you need to achieve this quarter?
 
 ### 12-Month Goals
 [LEWIS TO FILL IN]
+> Where does VYVE need to be in 12 months?
 
 ### Blockers
 [LEWIS TO FILL IN]
+> What is currently slowing you down?
 
 ---
 
-## 13. Technical Notes
+## 13. Technical Notes (for grant writing / pitches)
 
-### High-Level Architecture
-[LEWIS TO FILL IN]
+> For detailed technical architecture, read: `brain/master.md` from `VYVEHealth/VYVEBrain`
 
-### Features Live
+### High-Level Architecture Summary
+[LEWIS TO FILL IN — or ask Dean to sync key points here]
+> Brief non-technical summary of how the platform works
+
+### Features Currently Live
 [LEWIS TO FILL IN]
 
 ### Features in Development
@@ -227,6 +255,7 @@ HubSpot (Hub ID: 148106724)
 
 ### Integration Landscape
 [LEWIS TO FILL IN]
+> What tools / APIs / platforms does VYVE integrate with or plan to?
 
 ---
 
@@ -234,12 +263,15 @@ HubSpot (Hub ID: 148106724)
 
 ### Weekly Cadence
 [LEWIS TO FILL IN]
+> What does a typical week look like? Key recurring meetings, calls, commitments?
 
 ### Lewis + Dean Sync
 [LEWIS TO FILL IN]
+> How often do you and Dean sync? What format?
 
 ### Review & Planning Cycle
 [LEWIS TO FILL IN]
+> Monthly / quarterly review process?
 
 ---
 

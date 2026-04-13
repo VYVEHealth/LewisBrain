@@ -1,35 +1,33 @@
 # Playbook: Grant Application
 
-## When to Use
-Researching grants, writing applications, preparing supporting documents.
+**Trigger:** `run grant application`
+**Purpose:** Research grant opportunities, write applications, and prepare supporting documentation
 
-## Steps
+---
 
-### 1. Research
-- Identify grant, deadline, eligibility criteria, funding amount
-- Check CIC eligibility (most social impact grants accept CICs)
-- Read any previous applications in `reference/` or Command Centre > Research & Grants
+## Claude's Instructions
 
-### 2. Prepare
-- Gather required info: company reg, ICO number (00013608608), accounts, impact data
-- Member count: 11 (verify against brain/master.md)
-- Revenue: pre-revenue (be transparent)
-- Social impact: CIC asset lock, three-pillar wellbeing, employer aggregation
+### Step 1 — Load Context
+Read from master.md: grant pipeline, funding strategy, stage, team
 
-### 3. Write
-- Mission-led language, not startup jargon
-- Evidence-based claims only
-- CIC structure as credibility signal
-- Specific, measurable outcomes (e.g., "8-week programmes", "5 AI coaching personas")
-- Budget: be realistic. Dean part-time until GBP6K/month revenue - factor this into staffing
+### Step 2 — Ask Lewis
+Working on a specific grant or finding new ones?
 
-### 4. Review
-- [ ] All factual claims verifiable?
-- [ ] CIC status and ICO registration included?
-- [ ] Budget realistic?
-- [ ] No promises about unreleased features (HAVEN, Apple Health)?
-- [ ] team@vyvehealth.co.uk as contact?
+### Step 3 — Grant Discovery
+Key funders: Innovate UK, DHSC, National Lottery, Health Foundation, Nesta, Sport England, Social Enterprise UK
 
-### 5. Submit + Track
-- Log in Command Centre > Research & Grants
-- Set follow-up reminders
+### Step 4 — Eligibility Check
+
+### Step 5 — Write the Application
+Standard structure: Exec Summary, Problem, Solution, Innovation, Market, Traction, Team, CIC Advantage, Budget, Impact, Sustainability
+
+### Step 6 — Supporting Docs
+
+### Step 7 — Update Brain
+
+---
+
+## VYVE's CIC Advantage
+- Profits reinvested into social mission
+- Eligible for social enterprise funds
+- Public sector procurement advantage

@@ -3,6 +3,34 @@
 Zero-dependency knowledge system for AI-assisted business operations.
 Any AI model can load this repo and immediately operate on VYVE Health commercial tasks with Lewis.
 
+---
+
+## TL;DR — How to Start Every Chat
+
+### Option A: With Composio (recommended)
+Copy the contents of **`prompts/session-start.md`** and paste as your first message in a new Claude chat.
+
+### Option B: Without Composio (any AI)
+Copy the contents of **`prompts/cold-start.md`** and paste into any AI (Claude, ChatGPT, Gemini, etc.).
+
+### Option C: Shortcut commands (with Composio)
+Just type one of these as your first message:
+- `Load Lewis Brain and run content creation`
+- `Load Lewis Brain and run sales pipeline`
+- `Load Lewis Brain and run morning brief`
+- `Load Lewis Brain and run grant application`
+- `Load Lewis Brain and run investor comms`
+- `Load Lewis Brain and run brain sync`
+
+---
+
+## Prompts (start here)
+
+| File | When to Use |
+|------|-------------|
+| `prompts/session-start.md` | Every Claude chat with Composio connected — loads your full brain from GitHub |
+| `prompts/cold-start.md` | Any AI without Composio — gives essential context from memory |
+
 ## Folder Structure
 
 ```
@@ -22,7 +50,8 @@ Any AI model can load this repo and immediately operate on VYVE Health commercia
 │   ├── partnerships.md        ← Partner outreach and management
 │   └── brain-sync.md          ← Saving work back to GitHub
 ├── prompts/
-│   └── cold-start.md          ← Paste into ANY AI to begin
+│   ├── session-start.md       ← Paste into Claude (with Composio)
+│   └── cold-start.md          ← Paste into ANY AI (without Composio)
 ├── tasks/
 │   ├── backlog.md             ← Prioritised commercial task list
 │   ├── task-template.md       ← Blank task card
@@ -33,12 +62,16 @@ Any AI model can load this repo and immediately operate on VYVE Health commercia
     └── (brand voice, pricing, contacts — to be populated)
 ```
 
-## Quick Start
+## First Time Setup
 
-1. Open claude.ai (with Composio connected).
-2. Paste the session start prompt from `brain/how-to-use.md`.
-3. Tell Claude what you're working on.
-4. Claude loads the brain and relevant playbook automatically.
+See `brain/how-to-use.md` for Composio + GitHub connection instructions.
+
+## Updating Your Brain
+
+After any session where business context changed, tell Claude:
+```
+Run brain sync
+```
 
 ## Cross-Brain Access
 
@@ -46,6 +79,19 @@ Dean's technical brain: `VYVEHealth/VYVEBrain`
 Lewis's commercial brain: `VYVEHealth/LewisBrain` (this repo)
 
 Both can read each other's repos for cross-functional context.
+
+## Sections Lewis Needs to Fill In
+
+The master.md has placeholder sections marked **[LEWIS TO FILL IN]**. These are things only Lewis knows:
+- His 24 AI skill names and descriptions
+- Active pipeline leads and contacts
+- Content calendar and themes
+- Make automation scenarios
+- Key relationships and partnerships
+- Session schedule and delivery format
+- Grant contacts and progress
+
+To fill these in, start a brain session and say: "Help me fill in the [LEWIS TO FILL IN] sections in master.md"
 
 ## Last Updated
 

@@ -1,45 +1,46 @@
-# Lewis — Task Backlog
+# Lewis Brain — Task Backlog
 
-> Prioritised list of outstanding commercial/business work. Updated 13 April 2026.
-
-## 🔴 Do Now
-
-- **Composio + GitHub setup** — follow handover doc to connect Composio to Claude.ai and authorise GitHub
-- **Review LewisBrain repo** — read through master.md, confirm all details are accurate, flag anything missing
+> Maintained by Claude. Updated via `run brain sync`.
+> Format: **[Priority]** Task | Owner | Due | Status | Notes
 
 ---
 
-## 🟡 This Week
+## 🔴 Urgent / This Week
 
-- Re-engagement email copy x3 — Dean is blocked waiting on these
-- Content calendar: plan next 2 weeks of LinkedIn posts
-- Command Centre: populate Clients, Sales Pipeline, OKRs with real data (Supabase now persists)
-- Agent Sync: run morning brief skill + import to Command Centre
+- [ ] **Complete first brain session** — Fill in all [LEWIS TO FILL IN] sections in brain/master.md | Lewis | ASAP | Pending | Start with Step 3 from Dean's handover doc
 
 ---
 
-## 🟢 This Month
+## 🟡 Active / This Month
 
-- Grant research: National Lottery + The Fore — eligibility, deadlines, application requirements
-- Investor update draft (Q1 progress, product status, pipeline)
-- Partnership outreach: identify 5 target employers for pilot
-- Podcast planning: format, first 3 episode topics, recording setup
-- Brand voice doc: finalise tone guide for all VYVE comms
+[LEWIS TO FILL IN]
+> Add your current month priorities here during your first brain session
 
 ---
 
-## 🔵 Later
+## 🟢 Backlog / Upcoming
 
-- Google Workspace migration (from personal emails)
-- WHISPA research partnership — monitor May 2026 launch
-- External DPO service — needed before 500 members
-- Volume pricing tiers for 200+ seat B2B deals
-- Separate Command Centre auth accounts (Lewis + Dean individual logins)
+[LEWIS TO FILL IN]
+> Add medium-term tasks here
 
 ---
 
 ## ✅ Completed
 
-- ~~Health disclaimer sign-off~~ ✅ — 12 April 2026
-- ~~Command Centre: live at admin.vyvehealth.co.uk~~ ✅ — 13 April 2026
-- ~~Command Centre: Supabase data persistence~~ ✅ — 13 April 2026
+| Task | Completed | Notes |
+|---|---|---|
+| LewisBrain repo set up | 2026-04-13 | Dean built initial structure |
+
+---
+
+## How to Use This File
+
+During a session, tell Claude:
+- **"Add [task] to backlog"** → Claude adds it under the right priority
+- **"What's on my plate?"** → Claude reads this file and gives a summary
+- **"Mark [task] as done"** → Claude moves it to Completed and runs brain sync
+- **"Reprioritise my tasks"** → Claude reviews and re-orders by urgency
+
+---
+
+*Updated automatically via `run brain sync` at the end of each session.*

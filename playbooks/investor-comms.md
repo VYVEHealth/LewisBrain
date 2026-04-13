@@ -1,34 +1,35 @@
-# Playbook: Investor Communications
+# Playbook: Investor Comms
 
-## When to Use
-Investor updates, pitch deck prep, meeting prep, due diligence responses.
+**Trigger:** `run investor comms`
+**Purpose:** Write investor updates, prepare pitch materials, and handle due diligence requests
 
-## Steps
+---
 
-### 1. Context
-- Read `brain/master.md` for current business state
-- Read Dean's `VYVEBrain/brain/master.md` for technical progress
-- Read Dean's `VYVEBrain/tasks/backlog.md` for product roadmap
+## Claude's Instructions
 
-### 2. Update Structure
-| Section | Content |
-|---------|---------|
-| Headline | One sentence on biggest progress since last update |
-| Product | What shipped, what's next (app store status, features) |
-| Traction | Member count, engagement metrics, new sign-ups |
-| Pipeline | Active leads, stage, expected close |
-| Financials | Revenue (pre-revenue), burn, runway |
-| Team | Any changes, hiring plans |
-| Ask | What you need (funding, intros, advice) |
+### Step 1 — Load Context
+Read from master.md: investor pipeline, funding strategy, KPIs, pipeline
 
-### 3. Tone
-- Confident but honest - never overstate
-- Data-driven where possible
-- Pre-revenue is OK - focus on momentum and learning velocity
-- CIC structure is an asset, not a limitation
+### Step 2 — Ask Lewis
+1. Monthly update 2. Pitch deck 3. One-pager 4. Due diligence 5. Investor outreach
 
-### 4. Review
-- [ ] Numbers verified against live data?
-- [ ] No unreleased features presented as live?
-- [ ] Dean reviewed any technical claims?
-- [ ] Contact: team@vyvehealth.co.uk
+### Step 3 — Monthly Update
+Structure: Headline, Traction, Product, Commercial, What We Need, Next Month, The Ask
+
+### Step 4 — Pitch Deck
+12-15 slides: Title, Problem, Why Now, Solution, Product, Biz Model, Market, Traction, Competitors, Team, CIC Advantage, Financials, Ask, Vision, Next Steps
+
+### Step 5 — One-Pager
+
+### Step 6 — Due Diligence
+
+### Step 7 — Update Brain
+
+---
+
+## Key Messages
+1. Market timing is right
+2. CIC is a moat
+3. AI at the core
+4. B2B is the engine
+5. Founder-led, evidence-backed

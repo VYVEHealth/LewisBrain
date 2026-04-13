@@ -2,6 +2,7 @@
 
 > This document gives any AI everything it needs to operate on VYVE Health business and commercial tasks with Lewis Vines (CEO).
 > Last verified: 13 April 2026.
+> **Lewis:** Review this document and fill in the sections marked [LEWIS TO FILL IN]. These are areas only you know — your AI skills, pipeline details, content calendar, Make automations, and contacts.
 
 ---
 
@@ -118,6 +119,10 @@ VYVE Health CIC is a UK-based Community Interest Company building a proactive we
 > Maintained in Command Centre (admin.vyvehealth.co.uk) > Sales Pipeline page.
 > Also tracked in HubSpot.
 
+### [LEWIS TO FILL IN] Active Leads & Key Contacts
+> Add your current pipeline here so AI has context on who you're talking to.
+> Format: Company | Contact | Stage | Next Action | Notes
+
 ---
 
 ## 7. Content Strategy
@@ -125,7 +130,9 @@ VYVE Health CIC is a UK-based Community Interest Company building a proactive we
 ### Lewis's 24 AI Skills (Claude.ai Projects)
 Lewis runs 24 AI skills inside Claude.ai Projects (subscription, no API cost). Each skill produces structured JSON output that gets imported into the Command Centre via Agent Sync.
 
-Skills cover: market research, competitor analysis, grant scouting, legislation tracking, content generation, social media, investor prep, and more.
+### [LEWIS TO FILL IN] AI Skill Names & Descriptions
+> List all 24 (or however many) skills here so AI knows what's available.
+> Format: Skill Name | What It Does | Output Format | Which CC section it feeds
 
 ### Content Channels
 | Channel | Frequency | Owner |
@@ -135,6 +142,10 @@ Skills cover: market research, competitor analysis, grant scouting, legislation 
 | Blog (marketing site) | 1-2x/month | Lewis |
 | Email newsletter | Monthly | Lewis (via Brevo) |
 | Podcast | TBD | Lewis |
+
+### [LEWIS TO FILL IN] Content Calendar / Themes
+> What topics are you currently focusing on? Any recurring series? Hashtags?
+> What content has performed well? What tone/format gets engagement?
 
 ### Brand Voice Rules
 - Warm, human, evidence-based — never corporate jargon
@@ -187,9 +198,37 @@ Internal ops dashboard for VYVE leadership. Browser-based, hosted at admin.vyveh
 - Public sector procurement scoring bonus
 - Can still generate revenue (CIC is not a charity)
 
+### [LEWIS TO FILL IN] Grant Contacts & Progress
+> Who have you spoken to? Which specific programmes? Application status?
+
 ---
 
-## 10. App Store Status
+## 10. Make Automations
+
+### [LEWIS TO FILL IN] Active Make Scenarios
+> List your Make (formerly Integromat) automations here.
+> Format: Scenario Name | Trigger | What It Does | Status (active/paused)
+> e.g. "LinkedIn auto-post | RSS trigger | Posts blog content to LinkedIn | Active"
+
+---
+
+## 11. Partnerships & Network
+
+### [LEWIS TO FILL IN] Key Relationships
+> People Lewis is in regular contact with — partners, advisors, collaborators.
+> Format: Name | Organisation | Relationship | Last Contact | Notes
+
+---
+
+## 12. Sessions & Live Delivery
+
+### [LEWIS TO FILL IN] Session Schedule & Format
+> What live sessions does Lewis run? Format, frequency, platform?
+> Who attends? What content?
+
+---
+
+## 13. App Store Status
 
 | Platform | Status | Notes |
 |----------|--------|-------|
@@ -200,7 +239,7 @@ Old Kahunas app (com.kahunas.io.VYVE) still on Play Store — deprecate after ne
 
 ---
 
-## 11. Hard Rules (NEVER BREAK)
+## 14. Hard Rules (NEVER BREAK)
 
 1. **Business email only** for external comms: team@vyvehealth.co.uk
 2. **Never say "Corporate Wellness"** as a tagline
@@ -217,7 +256,7 @@ Old Kahunas app (com.kahunas.io.VYVE) still on Play Store — deprecate after ne
 
 ---
 
-## 12. Technical Context (Light — For Sales Conversations)
+## 15. Technical Context (Light — For Sales Conversations)
 
 Lewis doesn't need deep technical knowledge, but should be able to speak to these in sales:
 
@@ -233,7 +272,7 @@ For anything deeper, tag Dean.
 
 ---
 
-## 13. Dean's Brain (Cross-Reference)
+## 16. Dean's Brain (Cross-Reference)
 
 Dean's technical brain is at `VYVEHealth/VYVEBrain`. Lewis can read it when needed:
 - `brain/master.md` — full technical architecture, DB schema, Edge Functions, auth patterns
